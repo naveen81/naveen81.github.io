@@ -1,0 +1,111 @@
+#header{
+}
+#jumbotron{
+	background-color:#EFECEA;
+}
+h2{
+	text-align: center;
+	color: #2C3E50;
+	font-family: Patua One;
+	font-size: 40px;
+}
+.about-text{
+	text-align: center;
+}
+#focus{
+	color: #52B3D9;
+	font-family: Patua One;
+	font-size: 30px;
+}
+.text-center a:hover{
+		
+}
+.social li{
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+#button{
+	;
+}
+hr{
+
+	width: 10%;
+	background: rgba(255,255,255,0.3);
+	height: 4px;
+	
+	text-align: center;
+	position: relative;
+	background: #7bc3d1;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border: 0;
+}
+.social img{
+	margin-right: 20px;
+}
+.portfolio-item {
+	margin: 15px 0;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+.portfolio-item:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.portfolio-item .hover-bg {
+	height: 260px;
+	overflow: hidden;
+	position: relative;
+}
+.hover-bg .hover-text {
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0.66);
+	padding: 33% 0 0 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.hover-bg .hover-text>h4 {
+	opacity: 0;
+	color: #fff;
+	font-weight: 400;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>h4 {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.hover-bg .hover-text>i {
+	opacity: 0;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>i {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+}
+.hover-bg:hover .hover-text {
+	opacity: 1;
+}
+#portfolio{
+	background-color:  #89C4F4;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>@naveen81 (Naveen Gupta)</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+<!-- Bootstrap -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+<!-- Stylesheet=== -->
+<link rel="stylesheet" type="text/css"  href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body style="background-color:#EFECEA;">
+
+
+
+
+
+<div id="header">
+  
+</div>
+<!-- About Section -->
+
+
+<div id="about">
+<div class="jumbotron" id="jumbotron">
+  <div class="container">
+    
+    <div class="row">
+    <h2>About Me</h2>
+    <hr>
+      <div class="col-md-12" align="middle"><img  src="img/naveen.png" class="img-responsive"></div>
+      <div class="col-md-12">
+        <div class="about-text">
+          <p>
+            Hello, I’m <span id="focus">Naveen Gupta</span><br> I’m a <span id="focus">Web Developer.</span>
+          </p>
+          
+          <p class="text-center"><a id="button"  class="btn btn-primary" href="#"><i class="fa fa-download"></i> Download Resume</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>My work</h2>
+      <hr>
+    </div>
+    
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 col-lg-4 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> 
+              <div class="hover-text">
+                <h4>AKTU Fest Website</h4>
+                <small>Web Developer</small> </div>
+              <img src="img/comp.jpg" class="img-responsive"  alt="Project Title"> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> 
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>App Development</small> </div>
+              <img src="img/comp.jpg" class="img-responsive" alt="Project Title"> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> 
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>Web Design</small> </div>
+              <img src="img/comp.jpg" class="img-responsive" alt="Project Title"></div>
+          </div>
+        </div>
+        
+        
+                
+      </div>
+    </div>
+    <br><br>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Contact</h2>
+      <hr>
+    </div>
+    
+    <div class="col-md-8 col-md-offset-2">
+      <h3>Leave me a message</h3>
+      <form name="sentMessage" id="contactForm" action="contact_me.php?action=mail" method="POST" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" name="name" required="required">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" name="email" required="required">
+             
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" name="message" required></textarea>
+         
+        </div>
+        
+        <button id="button" type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+      <div class="social">
+        
+          <li><a href="https://www.facebook.com/naveen.gupta.81"><img src="img/facebook.png" alt="Social" height="60px" width="60px"></a></li>
+          <li><a href="https://github.com/naveen81"><img src="img/github.png" alt="Social" height="60px" width="60px"></a></li>
+          
+          <li><a href="https://in.linkedin.com/in/naveengupta81"><img src="img/linkedin.png" alt="Social" height="60px" width="60px"></a></li>
+        
+      </div>
+    </div>
+
+
+    <?php 
+  
+    // $m = $_GET['m'];
+  isset($_GET['m'])?$m=$_GET['m']:$m='';
+ // echo $m;
+  if(!empty($m))
+  {
+     $message = " ";
+    if($m==1)
+    {
+      $message= "Thanks for contacting Us";
+
+    }
+
+}
+echo $message;
+ ?>
+  </div>
+</div>
+
+
+</body>
+</html>

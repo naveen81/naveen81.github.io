@@ -4,7 +4,7 @@ This is the repository for portfolio of mine.<br>
 I'm <b>Naveen Gupta. </b><br>
 I'm a <b>Web Devloper.</b>
 
-View My Website: https://naveen81.github.io/
+View My Portfolio: https://naveen81.github.io/
 
 You can join me here: 
 

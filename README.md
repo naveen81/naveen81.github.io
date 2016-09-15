@@ -1,8 +1,8 @@
 # naveen81.github.io
 
-This is the repository for portfolio of mine.
-I'm <b>Naveen Gupta. <b><br>
-I'm a <b>Web Devloper.<b>
+This is the repository for portfolio of mine.<br>
+I'm <b>Naveen Gupta. </b><br>
+I'm a <b>Web Devloper.</b>
 
 View My Website: https://naveen81.github.io/
 

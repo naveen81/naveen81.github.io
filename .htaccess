@@ -1,0 +1,16 @@
+
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://naveen81.github.io/[nc]
+RewriteRule ^(.*)$ http://www.https://naveen81.github.io//$1 [r=301,nc]
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+//Prevent directory listings
+Options All -Indexes
+ 

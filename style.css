@@ -1,20 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
 #header{
 }
-
 #about{
 	background-color:#EFECEA;
+	margin-top: -30px;
 }
 #front{
 	background-color:  #4db8ff;
-	margin-top: -20px;
 }
+#portfolio{
+	background-color:  #89C4F4;
+	margin-top: -30px;
+}
+
 h2{
 	text-align: center;
 	color: #2C3E50;
 	font-family: Patua One;
 	font-size: 40px;
 }
-p{
+h3{
+	color: #2C3E50;
+	font-family: Patua One;
+	font-size: 30px;
+}
+p,li{
 	font-family: Roboto;
 }
 .about-text,.front-text{
@@ -33,9 +45,14 @@ p{
 .text-center a:hover{
 		
 }
+.section-title{
+}
+.main-img{
+	padding-top: 30px;
+}
 .social li{
 	display: inline-block;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 30px;
 
 }
@@ -119,7 +136,3 @@ hr{
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-#portfolio{
-	background-color:  #89C4F4;
-}
-

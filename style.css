@@ -1,7 +1,12 @@
 #header{
 }
-#jumbotron{
+
+#about{
 	background-color:#EFECEA;
+}
+#front{
+	background-color:  #4db8ff;
+	margin-top: -20px;
 }
 h2{
 	text-align: center;
@@ -12,11 +17,16 @@ h2{
 p{
 	font-family: Roboto;
 }
-.about-text{
+.about-text,.front-text{
 	text-align: center;
 }
-#focus{
+.front-text{
+	color: #EFECEA;
+}
+.about-text{
 	color: #52B3D9;
+}
+#focus{
 	font-family: Patua One;
 	font-size: 30px;
 }
@@ -112,3 +122,4 @@ hr{
 #portfolio{
 	background-color:  #89C4F4;
 }
+
